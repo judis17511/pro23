@@ -23,6 +23,7 @@ public class MemberServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		doHandle(request, response);
+		// doHandle로 보냅니다.
 	}
 
 	protected void doHandle(HttpServletRequest request, HttpServletResponse response)
